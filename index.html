@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Tool Management System</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="tool-status">
+    <h2>Trolley Status</h2>
+    <p id="trolleyStatus">Trolley is Empty</p>
+  </div>
+
+  <div class="scanning-section">
+    <h2>Scanning Tools</h2>
+    <p id="scanningStatus">Scanning: Off</p>
+  </div>
+
+  <div class="section-buttons">
+    <h2>Selected Station</h2>
+    <div class="section-button" id="section1Button">Section 1</div>
+    <div class="section-button" id="section2Button">Section 2</div>
+    <div class="section-button" id="section3Button">Section 3</div>
+  </div>
+
+  <div class="status-indicators">
+    <h2>Status Indicators</h2>
+    <p id="movingStatus" class="indicator">Trolley is Steady</p>
+    <p id="obstacleStatus" class="indicator">Path is Clear</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
